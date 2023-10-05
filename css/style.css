@@ -12,8 +12,9 @@
 
 body {
     color: white;
-    font-size: 12px;
+    font-size: 11px;
     font-family: 'AR One Sans', sans-serif;
+    background-color: black;
 }
 
 li {
@@ -32,7 +33,6 @@ a {
     display: flex;
 }
 
-
 i {
     cursor: pointer;
 }
@@ -42,7 +42,6 @@ i {
 /* #region HEADER*/
 
 .head-bar {
-    background-color: black;
     height: 50px;
     justify-content: end;
     align-items: center;
@@ -62,6 +61,35 @@ i {
 /* #endregion HEADER*/
 
 /* #region MAIN*/
+
+.gallery {
+    overflow-y: scroll;
+    padding: 20px 60px;
+    flex-wrap: wrap;
+    gap: 12px 6px;
+    justify-content: center;
+}
+
+.webcam {
+    width: 250px;
+    height: 140px;
+    position: relative;
+}
+
+.webcam img {
+    width: 250px;
+    height: 140px;
+    display: block;
+}
+
+.label {
+    background-color: rgba(128, 128, 128, 0.4);
+    padding: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
 
 /* #endregion MAIN*/
 
