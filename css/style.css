@@ -10,13 +10,54 @@
 
 /* #region TYPOGRAPHY*/
 
+body {
+    color: white;
+    font-size: 12px;
+    font-family: 'AR One Sans', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* #endregion TYPOGRAPHY*/
 
 /* #region COMMON*/
 
+.flex {
+    display: flex;
+}
+
+
+i {
+    cursor: pointer;
+}
+
 /* #endregion COMMON*/
 
 /* #region HEADER*/
+
+.head-bar {
+    background-color: black;
+    height: 50px;
+    justify-content: end;
+    align-items: center;
+}
+
+.butt-list {
+    gap: 12px;
+    padding-right: 8px;
+}
+
+.butt-list li {
+    background-color: #4A4A4A;
+    padding: 4px;
+    border-radius: 3px;
+}
 
 /* #endregion HEADER*/
 
