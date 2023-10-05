@@ -38,13 +38,13 @@ i {
 }
 
 .mic-video-controls,
-.controller-area,
+.controller,
 .chat-options {
     gap: 14px;
 }
 
 .foot-bar,
-.controller-area,
+.controller,
 .chat-options {
     align-items: center;
 }
@@ -74,6 +74,11 @@ i {
 /* #endregion HEADER*/
 
 /* #region MAIN*/
+
+main {
+    overflow-y: scroll;
+    height: calc(100vh - 118px);
+}
 
 .gallery {
     padding: 20px 60px;
@@ -119,13 +124,11 @@ i {
 }
 
 
-
 .controller-icon {
     display: flex;
 }
 
-
-.controller .controller-area .controller-info i {
+.controller .controller-info i {
     font-size: 22px;
     padding-bottom: 5px;
 }
@@ -144,7 +147,6 @@ i {
     height: 100%;
     align-items: center;
     justify-content: center;
-
 }
 
 .end-meeting a {
