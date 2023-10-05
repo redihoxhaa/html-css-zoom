@@ -37,11 +37,24 @@ i {
     cursor: pointer;
 }
 
+.mic-video-controls,
+.controller-area,
+.chat-options {
+    gap: 14px;
+}
+
+.foot-bar,
+.controller-area,
+.chat-options {
+    align-items: center;
+}
+
 /* #endregion COMMON*/
 
 /* #region HEADER*/
 
 .head-bar {
+    background-color: black;
     height: 50px;
     justify-content: end;
     align-items: center;
@@ -63,7 +76,6 @@ i {
 /* #region MAIN*/
 
 .gallery {
-    overflow-y: scroll;
     padding: 20px 60px;
     flex-wrap: wrap;
     gap: 12px 6px;
@@ -94,5 +106,49 @@ i {
 /* #endregion MAIN*/
 
 /* #region FOOTER*/
+
+.foot-bar {
+    background-color: #222222;
+    justify-content: space-between;
+    height: 68px;
+    text-align: center;
+}
+
+.foot-bar .mic-video-controls {
+    padding-left: 8px;
+}
+
+
+
+.controller-icon {
+    display: flex;
+}
+
+
+.controller .controller-area .controller-info i {
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.controller-selector i {
+    font-size: 8px;
+}
+
+.controller-info .fa-solid.fa-share-from-square {
+    color: #4BC800;
+}
+
+.end-meeting {
+    background-color: #4A4A4A;
+    width: 8%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.end-meeting a {
+    color: red;
+}
 
 /* #endregion FOOTER*/
