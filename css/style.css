@@ -94,8 +94,7 @@ main {
 }
 
 .webcam img {
-    width: 250px;
-    height: 140px;
+    width: 100%;
     display: block;
 }
 
